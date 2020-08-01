@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta title="author" content="Khizar Khan">
+        <title>Coffee Shop</title>
+        <link rel="stylesheet" href="/scss/main.css">
+    </head>
+    <body>
+        <!--nav-->
+        <nav class="nav-bar">
+          <a href="index.html" class="nav-bar__anchor">
+            <div class="nav-bar__logo">
+                <img 
+                    src="assets/coffee-shop-assets/logobeans.png" 
+                    class="nav-bar__logo--image" 
+                    alt="Coffee Beans Logo"
+                >
+                <p class="nav-bar__logo--text">nitro</p>
+            </div>
+          </a>
+          <ul class="nav-bar__list">
+              <li class="nav-bar__item nav-bar__item--active">
+                  <a href="index.html" class="nav-bar__anchor">About</a>
+                </li>
+              <li class="nav-bar__item"><a href="pages/menu.html" class="nav-bar__anchor">Menu</a></li>
+              <li class="nav-bar__item"><a href="pages/menu.html" class="nav-bar__anchor nav-bar__anchor--shop">Shop Now</a></li>
+          </ul>
+        </nav>
+        <!-- could put Nitro Coffee in <header></header> here -->
+        <main>
+            <!--header/landing section-->
+            <section class="landing-section">
+                <div class="landing-text">
+                    <h1 class="landing-section__header">Nitro Coffee</h1>
+                    <article class="landing-paragraph">
+                        <p>Coffee is a brewed drink prepared<br> 
+                        </br>from roasted coffee beans, the seeds of<br> 
+                        </br>berries from certain coffea species.</p>
+                    </article>
+                    <a href="/pages/menu.html" class="button-anchor">
+                        <button class="button">Shop Now<div class="button-border"></div></button>
+                    </a>
+                </div>
+                <div class="info-image">
+                    <img 
+                      src="assets/coffee-shop-assets/coffeebeans-hero.png"
+                      class="big-hero__image"   
+                      alt="Coffee Beans Hero"
+                      height="500px"
+                    >
+                </div>    
+            </section> 
+            <!--products-->
+            <section class="our-products__section">
+                <h2 class="our-products__header">Our Products</h2>
+                <div class="products-container">
+                    <div class="product-card">
+                        <img 
+                        src="assets/coffee-shop-assets/coffeebeans.png" 
+                        class="product-image" 
+                        alt="Coffee Beans" 
+                        >
+                        <article class="product-info">
+                            <div class="name-amount">
+                                <h3>Coffee Beans</h3>
+                                <p class="product-amount">Pack of 3</p>
+                            </div>
+                            <p class="price">$19</p>
+                        </article>
+                    </div>
+                    <div class="product-card">
+                        <img 
+                        src="assets/coffee-shop-assets/coldbrew.png" 
+                        class="product-image" 
+                        alt="Cold Brew" 
+                        >
+                        <article class="product-info">
+                            <div class="name-amount">
+                                <h3>Cold Brew</h3>
+                                <p class="product-amount">1 can</p>
+                            </div>
+                            <p class="price">$5</p>
+                        </article>    
+                    </div>
+                    <div class="product-card">
+                        <img 
+                        src="assets/coffee-shop-assets/inhousebrew.png" 
+                        class="product-image" 
+                        alt="In-house Brew" 
+                        >
+                        <article class="product-info">
+                            <div class="name-amount"> 
+                                <h3>In-house Brew</h3>
+                                <p class="product-amount">1 cup</p>
+                            </div>   
+                            <p class="price">$3</p>
+                        </article>
+                    </div>  
+                </div>    
+                    <a href="/pages/menu.html" class="button-anchor">
+                        <button class="button">View All<div class="button-border"></div></button>
+                    </a>
+            </section>  
+            <!--we're different and discount code-->  
+            <section class="we-different__section">
+                <div class="we-different__text">
+                    <h2 class="we-different__header">We're Different</h2>
+                    <article class="we-different__paragraph">
+                        <p<>We grow and roast our own 
+                            <br>beans. Every bean, every cup, 
+                            </br>every step of the way, we strive 
+                            <br>for excellence.</br>
+                        </p>
+                    </article>
+                    <div class="we-different__icons--section">
+                        <img class="we-different__icon" src="/assets/coffee-shop-assets/planting-icon.png" alt="Planting Coffee Beans">
+                        <img class="we-different__icon" src="/assets/coffee-shop-assets/2-coffee-beans-icon.png" alt="Coffee Beans">
+                        <img class="we-different__icon" src="/assets/coffee-shop-assets/coffee-cup-icon.png" alt="Coffee Cup">
+                    </div>
+                    <a href="/pages/menu.html" class="button-anchor">
+                        <button class="button">Learn More<div class="button-border"></div></button>
+                    </a>
+                </div>
+                <div class="we-different__image--container">
+                    <img 
+                      src="/assets/coffee-shop-assets/tiltedcan.png" 
+                      alt="Cold Brew Tumbler"
+                      class="we-different__image"
+                      >
+                    <div class="we-different__image--border"></div>
+                </div>         
+            <div class="discount-code__section">
+                <a href="/pages/menu.html" class="button-anchor">
+                    <button class="discount-button">Get 20% off your first order with code: <span class="first-nitro__text">FirstNitro</span><div class="button-border"></div></button>
+                </a>
+            </div>
+        </section>
+        </main>    
+        <!--footer-->
+        <footer class="footer-bar">
+        <!--could use unordered list-->
+            <div class="footer-container">
+                <img class="footer__image--left" src="/assets/coffee-shop-assets/logobeans.png">
+                <h3 class="footer-title">Address</h3>
+                <article class="footer-info address-info">
+                    <p>503 Broadway Penthouse<br>
+                    </br>New York</p>
+                </article>
+            </div>
+            <div class="footer-container">
+                <h3 class="footer-title">Hours</h3>
+                <article class="footer-info hours-info">
+                    <p><span class="days-of-week">Monday - Friday:</span> 9am-7pm<br>
+                    </br><span class="days-of-week">Saturday - Sunday:</span> 10am-5pm</p>
+                </article>
+            </div>
+            <div class="footer-container">
+                <h3 class="footer-title">Social</h3>
+                <!--could use ul-->
+                <div class="footer-info socials-bar">
+                    <a href="#" class="social-anchor">
+                        <img 
+                          src="assets/coffee-shop-assets/facebook.png" 
+                          class="social-media__image" 
+                          alt="Facebook Logo"
+                        >
+                    </a>
+                    <a href="#" class="social-anchor">
+                        <img 
+                          src="assets/coffee-shop-assets/yelp.png" 
+                          class="social-media__image" 
+                          alt="Yelp Logo"
+                        >
+                    </a>
+                    <a href="#" class="social-anchor">
+                        <img 
+                          src="assets/coffee-shop-assets/instagram.png" 
+                          class="social-media__image"  
+                          alt="Instagram Logo"
+                        >
+                    </a>
+                    <img class="footer__image--right" src="/assets/coffee-shop-assets/logobeans.png">
+                </div>
+            </div>
+        </footer>
+    </body>
+</html>
